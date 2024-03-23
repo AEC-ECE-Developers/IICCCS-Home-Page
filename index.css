@@ -1,0 +1,93 @@
+.ieee{
+
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: 39%;
+    margin-right: 50%;
+    margin-top: -70px;
+
+}
+#paper {
+    background: radial-gradient(
+      circle at 100%,
+      #b2a8fd,
+      #8678f9 50%,
+      #c7d2fe 75%,
+      #9a8dfd 75%
+    );
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s linear infinite;
+    margin-top: -60px;
+  }
+  
+  @keyframes animatedTextGradient {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+  /* div{
+    display: block;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #FFF;
+    border-radius: 80px;
+    border-bottom: 5px solid #CCD1D9;
+  } */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:  #151719;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+#waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 60px;
+}
+#waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+a:is(:link, :active, :visited).active{
+  color:yellow;
+  
+}
+nav a:hover{
+  color:yellow;
+}
+.CurrentActive{
+  color:yellow;
+
+}
