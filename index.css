@@ -86,38 +86,45 @@ a:is(:link, :active, :visited).active{
   
 }
 nav a:hover{
-  color:yellow;
+  color:rgb(255, 145, 0);
+  
 }
 .CurrentActive{
-  color:yellow;
+  color:rgb(248, 107, 0);
+  
 
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+/* @media (min-width:665px) {
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  .home_headder, .ece{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  #waviy{
+    font-size: 2.5rem;
+  }
+  .datee{
+    font-size: 18px;
+  }
+  .ieee{
+
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -33px;
+    margin-left: 33%;
+
 }
-
-body::-webkit-scrollbar {
-    width: 12px;               /* width of the entire scrollbar */
-  }
+.glowingFont{
+  font-size: 1rem;
+  line-height: 1rem;
+}
   
-  body::-webkit-scrollbar-track {
-    background: rgb(139, 197, 255);        /* color of the tracking area */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: rgb(71, 189, 236);    /* color of the scroll thumb */
-    border-radius: 20px;       /* roundness of the scroll thumb */
-    border: 3px solid rgb(93, 123, 255);  /* creates padding around scroll thumb */
-  }
+} */
 
-
-
-
+/* made changes here */
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 /* Base */
 
@@ -149,4 +156,18 @@ body::-webkit-scrollbar {
   to {
     border-right-color: transparent;
   }
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(139, 197, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(71, 189, 236);    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid rgb(93, 123, 255);  /* creates padding around scroll thumb */
 }
