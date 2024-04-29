@@ -219,4 +219,7 @@ svg text {
 }
 
 .wrapper {background-color: #FFFFFF};
-
+.confId{
+  font-family: "Anonymous Pro", monospace;
+color: hsl(0, 0%, 68%);
+}
