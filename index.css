@@ -275,7 +275,7 @@ color: hsl(0, 0%, 68%);
 
 .extended {
   margin: auto;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 150;
   animation: lights 5s 750ms linear infinite;
 }
